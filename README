@@ -14,3 +14,4 @@ This project involves building a Docker image from a web template, pushing the i
 ### 2. Build the Docker Image
 ## 3. Push images to dockerhub
 # 4. Deploy to kubernetes
+5. Use Jenkinsfile to automate the process through Jenkins automation server
