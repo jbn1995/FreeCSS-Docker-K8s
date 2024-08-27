@@ -1,0 +1,16 @@
+# Web Template Deployment with Docker and Kubernetes
+
+## Overview
+
+This project involves building a Docker image from a web template, pushing the image to Docker Hub, and deploying it to a Kubernetes cluster using Minikube. The web server is hosted using Nginx.
+
+## Steps
+
+### 1. Download the Web Template
+
+- Visit [free-css.com](https://www.free-css.com/) and download your desired web template.
+- Extract the downloaded ZIP file to obtain the web template files.
+
+### 2. Build the Docker Image
+## 3. Push images to dockerhub
+# 4. Deploy to kubernetes
