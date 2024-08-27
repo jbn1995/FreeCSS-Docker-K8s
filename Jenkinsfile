@@ -30,6 +30,7 @@ pipeline {
                 script {
                     // Point kubectl to Minikube's context
                     sh 'kubectl config use-context minikube'
+		    sh 'eval $(minikube docker-env)'
 
                     // Deploy the Kubernetes configurations
                     sh 'kubectl apply -f deployment_service.yml'
@@ -39,4 +40,4 @@ pipeline {
             }
         }
     }
-}
+ }
