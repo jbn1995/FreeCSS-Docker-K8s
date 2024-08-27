@@ -35,7 +35,7 @@ pipeline {
                     // Deploy the Kubernetes configurations
                     sh 'kubectl apply -f deployment_service.yml'
                     sh 'kubectl get services'
-                    sh 'minikube service service-webapp'
+                    
                 }
             }
         }
